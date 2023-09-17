@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -143,7 +143,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &125914545
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -250,19 +250,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 125914543}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fc34c4880f328b4aa55a978b3b54296, type: 3}
+  m_Script: {fileID: 11500000, guid: 9cab6a28d4aadc345b78c210902c536a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Target: {fileID: 650157071}
-  m_TargetOffset: {x: 0, y: 0, z: 0.1}
+  m_TargetOffset: {x: 0, y: 0, z: 1}
   m_MovementSpeed: 7
   m_SnapOnEnable: 1
   m_MinDistanceAllowed: 0.01
   m_MaxDistanceAllowed: 0.3
-  m_MinAngleAllowed: 0
-  m_MaxAngleAllowed: 0
   m_TimeUntilThresholdReachesMaxDistance: 3
-  m_TimeUntilThresholdReachesMaxAngle: 3
 --- !u!1 &195925401
 GameObject:
   m_ObjectHideFlags: 0
